@@ -1,6 +1,6 @@
 # AndroidReactor
 
-![AndroidReactor Version](https://img.shields.io/badge/AndroidReactor-0.0.1-red.svg)
+![AndroidReactor Version](https://img.shields.io/badge/AndroidReactor-0.0.1-red.svg) ![minSdk](https://img.shields.io/badge/minSdk-14-green.svg)
 
 AndroidReactor is a framework for a reactive and unidirectional Android application architecture.  
 It is an Android port of the [ReaktorKit](https://github.com/ReactorKit/ReactorKit/) iOS concept.
@@ -11,8 +11,15 @@ It is an Android port of the [ReaktorKit](https://github.com/ReactorKit/ReactorK
 Add the following Gradle dependency to your project `build.gradle` file:
 
 ```groovy
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+
 dependencies {
-    implementation 'TODO'
+    implementation 'at.florianschuster:androidreactor:0.0.1'
 }
 ```
 
@@ -30,8 +37,8 @@ dependencies {
 
 ### General Concept and Unidirectional Data Flow
 
-For this you should hit up the [ReactorKit Repo Readme](https://github.com/ReactorKit/ReactorKit/blob/master/README.md).  
-It is very extensive and since Swift 4 and Kotlin are much alike you will feel right at home! They also have nice graphics.
+For this you should hit up the [ReactorKit Repo Readme](https://github.com/ReactorKit/ReactorKit/blob/master/README.md). It is very extensive and since Swift 4 and Kotlin are much alike you will feel right at home!  
+They also have nice graphics.
 
 ### Android Specific
 

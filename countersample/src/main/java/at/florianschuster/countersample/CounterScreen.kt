@@ -10,7 +10,6 @@ import com.jakewharton.rxbinding3.view.visibility
 import io.reactivex.Observable
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.android.synthetic.main.activity_counter.*
-import java.lang.NullPointerException
 import java.util.concurrent.TimeUnit
 
 

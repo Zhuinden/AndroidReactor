@@ -10,7 +10,7 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode rootProject.ext.libVersionCode
-        versionName rootProject.ext.libVersionName
+        versionName rootProject.ext.libraryVersion
     }
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'

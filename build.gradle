@@ -1,3 +1,29 @@
+ext {
+    targetSdkVersion = 28
+    minSdkVersion = 14
+    compileSdkVersion = targetSdkVersion
+
+    libVersionCode = 1
+    libraryVersion = '0.0.1'
+
+    //publishing
+    bintrayRepo = 'AndroidReactor'
+    bintrayName = 'at.florianschuster.androidreactor'
+
+    publishedGroupId = 'at.florianschuster'
+    libraryName = 'AndroidReactor'
+    artifact = 'androidreactor'
+
+    libraryDescription = 'AndroidReactor is a framework for a reactive and unidirectional Android application architecture.'
+
+    siteUrl = 'https://github.com/floschu/AndroidReactor'
+    gitUrl = 'https://github.com/floschu/AndroidReactor.git'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 buildscript {
     ext.kotlin_version = '1.3.11'
     repositories {
@@ -8,6 +34,11 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:3.3.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+
+        //publishing
+        classpath 'org.jetbrains.dokka:dokka-android-gradle-plugin:0.9.17'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
     }
 }
 
@@ -21,13 +52,4 @@ allprojects {
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
-
-ext {
-    targetSdkVersion = 28
-    minSdkVersion = 14
-    compileSdkVersion = targetSdkVersion
-
-    libVersionCode = 1
-    libVersionName = '0.0.1'
 }
