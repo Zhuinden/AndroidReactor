@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="define_androidreactor"></string>
+    <!-- Author section -->
+    <string name="library_androidreactor_author">Florian Schuster</string>
+    <string name="library_androidreactor_authorWebsite">https://florianschuster.at</string>
+    <!-- Library section -->
+    <string name="library_androidreactor_libraryName">AndroidReactor</string>
+    <string name="library_androidreactor_libraryDescription">AndroidReactor is a framework for a reactive and unidirectional Android application architecture.</string>
+    <string name="library_androidreactor_libraryWebsite">https://github.com/floschu/AndroidReactor</string>
+    <string name="library_androidreactor_libraryVersion">0.0.1</string>
+    <!-- OpenSource section -->
+    <string name="library_androidreactor_isOpenSource">true</string>
+    <string name="library_androidreactor_repositoryLink">https://github.com/floschu/AndroidReactor</string>
+    <!-- ClassPath for autoDetect section -->
+    <string name="library_androidreactor_classPath">at.florianschuster.androidreactor</string>
+    <!-- License section -->
+    <string name="library_androidreactor_licenseId">apache_2_0</string>
+</resources>
