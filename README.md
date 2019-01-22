@@ -37,8 +37,7 @@ dependencies {
 
 ### General Concept and Unidirectional Data Flow
 
-For this you should hit up the [ReactorKit Repo Readme](https://github.com/ReactorKit/ReactorKit/blob/master/README.md). It is very extensive and since Swift 4 and Kotlin are much alike you will feel right at home!  
-They also have nice graphics.
+For this you should hit up the [ReactorKit Repo Readme](https://github.com/ReactorKit/ReactorKit/blob/master/README.md). It is very extensive and since Swift 4 and Kotlin are much alike you will feel right at home! They also have nice graphics.
 
 ### Android Specific
 
