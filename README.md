@@ -15,6 +15,7 @@ allprojects {
     }
 }
 
+...
 
 dependencies {
     implementation 'at.florianschuster:androidreactor:0.0.1'
@@ -51,6 +52,11 @@ All views have to be laid out before the bind happens, so you should not call `f
 * [Counter](https://github.com/floschu/AndroidReactor/tree/master/countersample): Most Basic Counter Example.
 * [Github Search](https://github.com/floschu/AndroidReactor/tree/master/githubsample): Github Repository Search.
 * [Watchables](https://github.com/floschu/Watchables): A Movie and TV Show Watchlist Application.
+
+
+## Author
+
+Visit my [Website](https://florianschuster.at/).
 
 
 ## License
