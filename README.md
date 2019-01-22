@@ -8,8 +8,6 @@ It is an Android port of the [ReaktorKit](https://github.com/ReactorKit/ReactorK
 
 ## Installation
 
-Add the following Gradle dependency to your project `build.gradle` file:
-
 ```groovy
 allprojects {
     repositories {
