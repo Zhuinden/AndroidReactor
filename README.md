@@ -40,6 +40,7 @@ For this you should hit up the [ReactorKit Repo Readme](https://github.com/React
 
 ### Android Specific
 
+A Reactor has to implment the `Reactor<Action, Mutation, State>` interface. Do not forget to dispose the `CompositeDisposable` in the `Reactor` after you are done with it (the `ViewModelReactor` handles this for you). A View that binds to a Reactor has to implement the interface `ReactorView`.  
 When binding the Reactor to an Activity or a Fragment, their life cycles have to be taken into account.  
 All views have to be laid out before the bind happens, so you should not call `fun bind(Reactor)` before:
 
