@@ -47,6 +47,10 @@ All views have to be laid out before the bind happens, so you should not call `f
 * Activity's `fun onCreate(Bundle)`
 * Fragment's `fun onActivityCreated(Bundle)`
 
+Also do not forget to dispose the View's `CompositeDisposable`. I propose to do this in: 
+
+* Activity's `fun onDestroy()`
+* Fragment's `fun onDestroyView()`
 
 ## Examples
 
