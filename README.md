@@ -52,6 +52,8 @@ Also do not forget to dispose the View's `CompositeDisposable`. I propose to do 
 * Activity's `fun onDestroy()`
 * Fragment's `fun onDestroyView()`
 
+The `ViewModelReactor` is a default implementation for a `Reactor<Action, Mutation, State>`, however it is only a suggestion of how the Reactor could be implemented!
+
 ## Examples
 
 * [Counter](https://github.com/floschu/AndroidReactor/tree/master/countersample): Most Basic Counter Example.
